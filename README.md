@@ -68,7 +68,7 @@
 
 <div align="center">
   <a href="https://github.com/qianqianhhh3/jianyin">
-    <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/pin-jianyin.svg?v=2" />
+    <img src="https://raw.githubusercontent.com/qianqianhhh3/qianqianhhh3/output/pin-jianyin.svg" />
   </a>
 </div>
 
