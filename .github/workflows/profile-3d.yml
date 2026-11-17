@@ -42,7 +42,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          USERNAME: qianqianhhh2
+          USERNAME: qianqianhhh3
 
       - name: Commit and push
         run: |
@@ -50,5 +50,5 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "Update 3D contribution graph" || exit 0
-          git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/qianqianhhh2/qianqianhhh2.git
+          git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/qianqianhhh3/qianqianhhh3.git
           git push origin HEAD:main --force
