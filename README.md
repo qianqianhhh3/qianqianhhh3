@@ -40,8 +40,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=qianqianhhh3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qianqianhhh3&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="49%" />
+  <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/stats.svg" width="49%" />
+  <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/top-langs.svg" width="49%" />
 </div>
 
 <br />
@@ -68,7 +68,7 @@
 
 <div align="center">
   <a href="https://github.com/qianqianhhh3/jianyin">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=qianqianhhh3&repo=jianyin&theme=tokyonight&hide_border=true&show_owner=true" />
+    <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/pin-jianyin.svg" />
   </a>
 </div>
 
@@ -79,10 +79,10 @@
 > Personally, I am most proud at present..
 
 <div align="center">
-  <a href="https://github.com/qianqianhhh3/jianyin">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=qianqianhhh3&repo=jianyin&theme=tokyonight&hide_border=true" />
-  </a>
-  <!-- Add more pinned repos by copying the block above -->
+  <a href="https://github.com/qianqianhhh3/jianyin"><img src="https://img.shields.io/github/stars/qianqianhhh3/jianyin?style=flat-square&label=Stars&color=A97BFF&logo=github" /></a>
+  <a href="https://github.com/qianqianhhh3/jianyin/forks"><img src="https://img.shields.io/github/forks/qianqianhhh3/jianyin?style=flat-square&label=Forks&color=7AA2F7&logo=github" /></a>
+  <a href="https://github.com/qianqianhhh3/jianyin/releases"><img src="https://img.shields.io/github/v/release/qianqianhhh3/jianyin?style=flat-square&label=Release&color=9ECE6A&logo=android" /></a>
+  <a href="https://github.com/qianqianhhh3/jianyin"><img src="https://img.shields.io/github/languages/top/qianqianhhh3/jianyin?style=flat-square&label=Kotlin&color=7DCFFF&logo=kotlin" /></a>
 </div>
 
 ---
