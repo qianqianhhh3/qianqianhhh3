@@ -40,8 +40,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/stats.svg" width="49%" />
-  <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/top-langs.svg" width="49%" />
+  <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/stats.svg?v=3" width="49%" />
+  <img src="https://cdn.jsdelivr.net/gh/qianqianhhh3/qianqianhhh3@output/top-langs.svg?v=3" width="49%" />
 </div>
 
 <br />
