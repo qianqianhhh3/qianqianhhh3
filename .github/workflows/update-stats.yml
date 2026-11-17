@@ -1,0 +1,36 @@
+name: Update profile stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Generate SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: qianqianhhh3
+        run: python scripts/gen_stats.py
+      - name: Push to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin output
+          git checkout output
+          cp out/*.svg .
+          git add -A
+          git commit -m "chore: auto update stats svg" || exit 0
+          git push origin output
